@@ -1,0 +1,51 @@
+.home{
+    flex:  1;
+    background-color:#1d1d1d;
+    color: #fff;
+display: flex;
+  align-items: center;
+}
+.home__main{
+    padding: 40px;
+    line-height: 1;
+    font-size: 30px;
+
+}
+.home > span{
+    color: #07fdd8;
+}
+
+.span{
+    color: #07fdd8;
+}
+.home__main__text{
+    font-size: 15px;
+    font-size: 15px;
+    font-weight: 200;padding-top: 20px;
+
+}
+@media only screen and (max-width: 600px) {
+
+    .home__main{
+     font-size: 15px !important;
+        position: relative;
+        bottom: 39%;
+        line-height: 2;
+
+
+ }
+.home__main__text{
+    padding-top: 20px;
+}
+}
+.home__button{
+    border: 1px solid #07fdd8 !important;
+    color: #fff;
+    color: #fff !important;
+}
+.home__button:hover{
+    background-color: #14796a !important;
+    color: black !important;
+    transition: 3ms ease-in-out !important;
+
+}
