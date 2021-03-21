@@ -10,13 +10,13 @@ import project6 from '../images/project6.png'
 import project7 from '../images/project7.png'
 function Work (){
 const data = [
-    {imageUrl: project1, projectLink:"https://suspicious-noether-f9c735.netlify.app/index.html"},
-    {imageUrl: project2 , projectLinl:"https://codebreaker2001.netlify.app/" },
-    {imageUrl: project3, projectLink: "https://keen-murdock-4ce410.netlify.app/"},
-    {imageUrl: project4, projectLink: "https://silly-elion-729595.netlify.app/"},
-    {imageUrl: project5, projectLink: "https://otman-developer.web.app/work"},
-    {imageUrl: project6, projectLink: "https://slack-clone-b8936.web.app/"},
-    {imageUrl: project7, projectLink: "https://clone-8c69f.web.app/"}
+    {imageUrl: project1, projectLink:"https://github.com/Othman2001/ResumeWebsite"},
+    {imageUrl: project2 , projectLinl:"https://github.com/Othman2001/CoderBreaker" },
+    {imageUrl: project3, projectLink: "https://github.com/Othman2001/modiest-Website"},
+    {imageUrl: project4, projectLink: "https://github.com/Othman2001/free-course-website"},
+    {imageUrl: project5, projectLink: "https://github.com/Othman2001/profile-ai"},
+    {imageUrl: project6, projectLink: "https://github.com/Othman2001/slack-CLone-reactjs-and-firebase"},
+    {imageUrl: project7, projectLink: "https://github.com/Othman2001/Amazon-clone-react-js"}
 
 
 ]
