@@ -1,7 +1,6 @@
 import React from 'react'
 import "../css/abou.css"
-import LinearProgress from '@material-ui/core/LinearProgress';
-import CircularProgress from '@material-ui/core/CircularProgress';
+
 function AboutPage(){
 const skills = [
     "HTML5",

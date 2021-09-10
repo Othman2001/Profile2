@@ -1,14 +1,14 @@
-.work{
+.work {
     background-color: #1d1d1d;
     color: #FFF;
     padding-left: 5%;
     display: grid;
- grid-template-columns: 1fr 1fr 1fr;
-
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-    .work{
+    .work {
         display: grid;
         grid-template-columns: 1fr;
     }

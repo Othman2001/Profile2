@@ -1,8 +1,8 @@
-import React,{useState} from 'react'
+import React from 'react'
 import HomeIcon from '@material-ui/icons/Home';
 import PersonIcon from '@material-ui/icons/Person';
 import "../css/sidebar.css"
-import SettingsIcon from '@material-ui/icons/Settings';
+
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import EmailIcon from '@material-ui/icons/Email';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -11,8 +11,6 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 
 import {
     BrowserRouter as Router,
-    Switch,
-    Route,
     Link
 } from "react-router-dom";
 
@@ -35,10 +33,6 @@ function SideBar() {
                         </Link>
                          <Link to="/work">
                              <VisibilityIcon className = "sidebar__icon" />
-                         </Link>
-                         <Link to="/contact">
-                             <EmailIcon className = "sidebar__icon" />
-
                          </Link>
 
                     </div>
